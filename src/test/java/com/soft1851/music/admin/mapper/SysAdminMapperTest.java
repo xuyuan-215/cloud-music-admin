@@ -15,7 +15,7 @@ class SysAdminMapperTest {
 
     @Test
     void selectByName() {
-        SysAdmin sysAdmin = sysAdminMapper.selectByName("xu");
+        SysAdmin sysAdmin = sysAdminMapper.selectByName("zhang");
         System.out.println("admin基础信息");
         System.out.println(sysAdmin.getId());
         System.out.println(sysAdmin.getName());

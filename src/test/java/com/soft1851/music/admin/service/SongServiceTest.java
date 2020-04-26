@@ -19,4 +19,17 @@ class SongServiceTest {
         int count = songService.count(queryWrapper);
         System.out.println(count);
     }
+    @Test
+    void selectAll() {
+        System.out.println(songService.selectAll());
+    }
+
+    @Test
+    void getSongBy() {
+        System.out.println(songService.getSongBy("周杰伦"));
+    }
+    @Test
+    void getPage(){
+        System.out.println(songService.getPage(1,10));
+    }
 }

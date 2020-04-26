@@ -15,8 +15,5 @@
     </resultMap>
 
     <!-- 通用查询结果列 -->
-    <sql id="Base_Column_List">
-        like_id, user_id, song_id, comment_id, video_id, create_time, update_time, song_list_id
-    </sql>
 
 </mapper>
